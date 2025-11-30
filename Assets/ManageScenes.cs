@@ -30,10 +30,16 @@ public class ManageScenes : MonoBehaviour
     public void oto()
     {
         SceneManager.LoadScene("ez");
+
     }
 
     public void ani()
     {
         SceneManager.LoadScene("mid");
+    }
+
+    public void ane()
+    {
+        SceneManager.LoadScene("hard");
     }
 }
